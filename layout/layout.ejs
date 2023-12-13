@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple</title>
+</head>
+<body style="font-family: monospace;">
+    <div style="font-weight: bold; ">
+        <a href="/"><%- config.title %></a>
+    </div>
+    <hr>
+    <% if(is_home()) { %>
+        <%- include("index.ejs") %>
+    <% } %>
+    <%- include("post.ejs") %>
+    <hr>
+    Contact me at .
+</body>
+</html>

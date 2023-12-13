@@ -1,0 +1,7 @@
+
+<% site.posts.each(post=>{ %>
+        <%- date(post.date, 'YYYY/MM/DD') %> &nbsp;
+        <a href="<%- url_for(post.path) %>">
+            <%- post.title  %> <br>
+        </a>
+<% }) %>
