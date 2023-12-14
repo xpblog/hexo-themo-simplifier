@@ -4,4 +4,5 @@
 
 hexo博客搭建起来比较方便, 所以编写了hexo博客的simplifier主题
 
+- [hexo样例](https://xpblog.github.io/)
 
