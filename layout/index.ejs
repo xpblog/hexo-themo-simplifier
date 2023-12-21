@@ -1,6 +1,6 @@
 
 <% site.posts.each(post=>{ %>
-        <span style="display: block; margin-top: 3px;">
+        <span style="display: block; margin-top: 6px;">
             [<%- date(post.date, 'YYYY/MM/DD') %>] &nbsp;
             <a href="<%- url_for(post.path) %>" style="padding:1px">
                 <%- post.title  %> <br>
